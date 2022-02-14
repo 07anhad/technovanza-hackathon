@@ -51,6 +51,68 @@ button {
 	cursor: pointer;
 }
 
+@keyframes spin_1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce_1 {
+    0%,100%{
+        transform: translateY(-30px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+}
+
+.effects .effect{
+    position: absolute;
+    /* z-index: -1; */
+	background: -webkit-linear-gradient(rgb(1, 204, 255), rgb(26, 64, 82));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.effects .effect-1{
+    left: 50%;
+    bottom: 19%;
+    font-size: 35px;
+    color: var(--color-1);
+    animation: spin_1 5s linear infinite;
+
+}
+
+.effects .effect-2{
+    right: 10%;
+    top: 15%;
+    font-size: 35px;
+    color: var(--color-2);
+    animation: bounce_1 4s linear infinite;
+
+}
+
+.effects .effect-3{
+    left: 5%;
+    bottom: 24%;
+    font-size: 35px;
+    color: var(--color-3);
+    animation: bounce_1 3s linear infinite;
+
+}
+.effects .effect-4{
+    right: 5%;
+    bottom: 37%;
+    font-size: 35px;
+    color: var(--color-3);
+    animation: spin_1 3s linear infinite;
+
+}
+
 .main {
 	overflow: hidden;
 }
@@ -60,7 +122,7 @@ button {
 }
 
 .container {
-	max-width: 968px;
+	max-width: 980px;
 	margin-right: 1.5rem;
 	margin-left: 1.5rem;
 }
@@ -87,18 +149,21 @@ button {
 }
 
 .btn-b {
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	padding: 10px 15px;
 	color: var(--white-clr);
-	border: 1px solid var(--white-clr);
+	border: 1px solid rgb(195, 0, 255);
 	border-radius: 20px;
 	font-weight: 600;
 	transition: 0.4s;
 }
 
 .btn-b:hover {
-	background: var(--white-clr);
-	color: var(--dark-clr);
-	border: none;
+	background: -webkit-linear-gradient(rgb(1, 204, 255), rgb(0, 50, 73));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .header {
@@ -121,8 +186,12 @@ button {
 
 .logo{
 	/* height: 10px; */
-	width: 5.2rem;
+	font-size: 1.4rem;
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 178, 209));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	margin-right: 20px;
+	
 }
 
 .logo,
@@ -134,7 +203,10 @@ button {
 }
 
 .nav-toggle {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 178, 209));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .section-b{
@@ -173,17 +245,22 @@ button {
 .section-b-inner h2{
 	font-size: 3rem;
 	margin-top: 1rem;
-	background: -webkit-linear-gradient(rgb(79, 169, 192), rgb(11, 227, 255));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.section-b-inner h2 span{
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .section-b-inner p{
 	font-size: 1.5rem;
 	margin-top: 1rem;
-	background: -webkit-linear-gradient(rgb(164, 197, 195), rgb(147, 174, 175));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color: rgb(0, 225, 255);
+
 	
 }
 
@@ -257,6 +334,7 @@ button {
 }
 
 .nav-list {
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -266,6 +344,9 @@ button {
 }
 
 .nav-link {
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-weight: 900;
 	color: var(--white-clr);
 	font-size: 1.2rem;
@@ -289,7 +370,7 @@ button {
 }
 
 .home{
-	height: 100vh;
+	height: 90vh;
 }
 
 .home-img{
@@ -308,7 +389,7 @@ button {
 }
 
 span{
-	color: white;
+	color: rgb(0, 255, 200);
 	font-weight: 800;
 }
 
@@ -317,19 +398,27 @@ span{
 }
 
 .home-subtitle{
-	font-size: 1.125rem;
+	font-size: 1.4rem;
+	background: -webkit-linear-gradient(rgb(141, 1, 255), rgb(0, 160, 152));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .home-title{
 	font-weight: 900;
 	margin-top: 2rem;
 	font-size: 3.1rem;
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
 }
 
 .home-description{
+	font-size: 1rem;
 	margin-top: 1rem;
 	line-height: 2rem;
-	color: rgba(255, 255, 255, 0.794);
+	color: rgb(0, 225, 255);
 }
 
 .buttons{
@@ -359,6 +448,9 @@ footer{
 }
 
 .footer-content h3{
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 1.4rem;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -366,6 +458,7 @@ footer{
 }
 
 .footer-content p{
+	color: rgb(0, 225, 255);
 	max-width: 500px;
 	margin: 10px auto;
 	line-height: 28px;
@@ -389,6 +482,9 @@ footer{
 }
 
 .socials a i{
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 217, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 1.5rem;
 	transition: color .4s ease;
 }
@@ -408,11 +504,16 @@ footer{
 	font-size: 14px;
 	word-spacing: 2px;
 	text-transform: capitalize;
+	color: rgb(0, 255, 255);
 
 }
 
-.footer-bottom span{
-	text-transform: uppercase;
-	opacity: .6;
-	font-weight: 400;
+.footer-bottom span{	
+	font-size: 1.2rem;
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* text-transform: uppercase; */
+	opacity: 1;
+	font-weight: 700;
 }
