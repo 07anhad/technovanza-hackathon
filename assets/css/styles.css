@@ -73,16 +73,13 @@ button {
 .effects .effect{
     position: absolute;
     /* z-index: -1; */
-	background: -webkit-linear-gradient(rgb(1, 204, 255), rgb(26, 64, 82));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	color: rgb(156, 156, 156);
 }
 
 .effects .effect-1{
     left: 50%;
     bottom: 13%;
     font-size: 35px;
-    color: var(--color-1);
     animation: spin_1 5s linear infinite;
 
 }
@@ -91,7 +88,6 @@ button {
     right: 10%;
     top: 15%;
     font-size: 35px;
-    color: var(--color-2);
     animation: bounce_1 4s linear infinite;
 
 }
@@ -100,7 +96,6 @@ button {
     left: 5%;
     bottom: 13%;
     font-size: 35px;
-    color: var(--color-3);
     animation: bounce_1 3s linear infinite;
 
 }
@@ -108,8 +103,7 @@ button {
     right: 5%;
     bottom: 27%;
     font-size: 35px;
-    color: var(--color-3);
-    animation: spin_1 3s linear infinite;
+      animation: spin_1 3s linear infinite;
 
 }
 
@@ -338,7 +332,8 @@ button {
 }
 
 .nav-link {
-	color: rgb(0, 255, 234);
+	color: rgb(207, 207, 207);
+
 	font-weight: 900;
 	font-size: 1.2rem;
 	/* font-weight: 500; */
@@ -405,7 +400,7 @@ span{
 	font-weight: 900;
 	margin-top: 2rem;
 	font-size: 3.1rem;
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 195, 255));
+	background: -webkit-linear-gradient(rgb(142, 4, 255), rgb(9, 188, 204));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	
@@ -639,7 +634,7 @@ footer{
 }
 
 .socials a i{
-	color: rgb(103, 145, 170);
+	color: rgb(55, 100, 126);
 	font-size: 1.5rem;
 	transition: color .4s ease;
 }
