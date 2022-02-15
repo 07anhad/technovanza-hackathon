@@ -3,7 +3,7 @@
 :root {
 	--dark-clr: #090d11;
 	--container-dark-clr: #18191b;
-	--blue-clr: #147ce5;
+	--blue-clr: #0041a891;
 	--alt-blue-clr: #1267bd;
 	--white-clr: #fff;
 	--text-color: #0f0f10c7;
@@ -580,6 +580,25 @@ span{
 	}
 }
 
+.case-title{
+	background: -webkit-linear-gradient(rgb(0, 255, 242),rgb(184, 4, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3rem;
+	line-height: 100%;
+	margin-bottom: 3rem;
+}
+
+.case-img-1{
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+.case-img-2{
+	width: 85%;
+	margin: 0 auto;
+}
 
 /* FOOTER  */
 
