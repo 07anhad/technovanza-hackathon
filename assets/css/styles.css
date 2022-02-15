@@ -149,12 +149,10 @@ button {
 }
 
 .btn-b {
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(187, 187, 187);
 	padding: 10px 15px;
-	color: var(--white-clr);
-	border: 1px solid rgb(195, 0, 255);
+	/* color: var(--white-clr); */
+	border: 1px solid rgb(143, 1, 187);
 	border-radius: 20px;
 	font-weight: 600;
 	transition: 0.4s;
@@ -187,26 +185,22 @@ button {
 .logo{
 	/* height: 10px; */
 	font-size: 1.4rem;
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 178, 209));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(172, 172, 172);
 	margin-right: 20px;
 	
 }
 
-.logo,
+
 .nav-toggle,
 .nav-close {
-	color: white;
+	color: rgb(153, 153, 153);
 	font-weight: 600;
 	cursor: pointer;
 }
 
 .nav-toggle {
 	font-size: 1.3rem;
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 178, 209));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	
 }
 
 .section-b{
@@ -224,7 +218,7 @@ button {
 
 
 .section-b-inner{
-	color: white;
+	/* color: white; */
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -234,32 +228,32 @@ button {
 	margin: auto;
 	max-width: 860px;
 	padding: 5rem 0;
+	
 
 }
 
 .section-b-inner h3{
 	font-size: 72px;
+	
   
 }
 
 .section-b-inner h2{
 	font-size: 3rem;
 	margin-top: 1rem;
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
+	background: -webkit-linear-gradient(rgb(0, 255, 242),rgb(184, 4, 255));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	
 }
 
-.section-b-inner h2 span{
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+
+
 
 .section-b-inner p{
 	font-size: 1.5rem;
 	margin-top: 1rem;
-	color: rgb(0, 225, 255);
+	color: rgb(200, 200, 200);
 
 	
 }
@@ -270,7 +264,7 @@ button {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: var(--overlay-color);
+	background-color: var(--overlay-color); 
 }
 
 .section-c .gallery{
@@ -344,11 +338,8 @@ button {
 }
 
 .nav-link {
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(0, 255, 234);
 	font-weight: 900;
-	color: var(--white-clr);
 	font-size: 1.2rem;
 	/* font-weight: 500; */
 	transition: 0.4s;
@@ -406,17 +397,15 @@ span{
 }
 
 .home-subtitle{
-	font-size: 1.4rem;
-	background: -webkit-linear-gradient(rgb(141, 1, 255), rgb(0, 160, 152));
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	font-size: 1.3rem;
+	color: rgb(194, 194, 194);
 }
 
 .home-title{
 	font-weight: 900;
 	margin-top: 2rem;
 	font-size: 3.1rem;
-	background: -webkit-linear-gradient(rgb(0, 255, 242),rgb(184, 4, 255));
+	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 195, 255));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	
@@ -439,9 +428,7 @@ span{
 
 .design-subtitle{
 	font-size: 1.4rem;
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(187, 187, 187);
 	font-weight: 500;
 
 }
@@ -472,9 +459,9 @@ span{
 
 .tip-item{
 	position: relative;
-	width: 15px;
-	height: 15px;
-	background: rgb(0, 217, 255); 
+	width: 18px;
+	height: 18px;
+	background: rgb(194, 194, 194); 
 	margin: 20px 0;
 	transition:0.4s;
 	border-radius: 50%;
@@ -489,7 +476,7 @@ span{
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	background: rgba(0, 217, 255, 0.698); 
+	background: rgba(207, 207, 207, 0.698); 
 	animation: pulse 1.5s ease-in-out infinite;
 }
 
@@ -568,10 +555,9 @@ span{
 
 .feature-title{
 	font-size: 1.4rem;
-	background: -webkit-linear-gradient(rgb(255, 4, 242), rgb(0, 255, 242));
+	color: rgb(128, 197, 197);
 	font-weight: 700;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	
 	margin-top: 1rem;
 
 }
@@ -621,9 +607,7 @@ footer{
 }
 
 .footer-content h3{
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 255, 242));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(190, 190, 190);
 	font-size: 1.4rem;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -631,7 +615,7 @@ footer{
 }
 
 .footer-content p{
-	color: rgb(0, 225, 255);
+	color: rgb(182, 182, 182);
 	max-width: 500px;
 	margin: 10px auto;
 	line-height: 28px;
@@ -655,9 +639,7 @@ footer{
 }
 
 .socials a i{
-	background: -webkit-linear-gradient(rgb(184, 4, 255), rgb(0, 217, 255));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: rgb(103, 145, 170);
 	font-size: 1.5rem;
 	transition: color .4s ease;
 }
@@ -678,7 +660,7 @@ footer{
 	font-size: 14px;
 	word-spacing: 2px;
 	text-transform: capitalize;
-	color: rgb(0, 255, 255);
+	color: rgb(187, 187, 187);
 
 }
 
