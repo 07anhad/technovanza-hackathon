@@ -80,7 +80,7 @@ button {
 
 .effects .effect-1{
     left: 50%;
-    bottom: 19%;
+    bottom: 13%;
     font-size: 35px;
     color: var(--color-1);
     animation: spin_1 5s linear infinite;
@@ -98,7 +98,7 @@ button {
 
 .effects .effect-3{
     left: 5%;
-    bottom: 24%;
+    bottom: 13%;
     font-size: 35px;
     color: var(--color-3);
     animation: bounce_1 3s linear infinite;
@@ -106,7 +106,7 @@ button {
 }
 .effects .effect-4{
     right: 5%;
-    bottom: 37%;
+    bottom: 27%;
     font-size: 35px;
     color: var(--color-3);
     animation: spin_1 3s linear infinite;
@@ -397,6 +397,10 @@ span{
 	background: var(--dark-clr)
 }
 
+.scroll-header .nav{
+	height: 4rem;
+}
+
 .home-data{
 	margin-top: 3.8rem;
 }
@@ -458,6 +462,142 @@ span{
 	margin-top: 2rem;
 }
 
+.features-img{
+	position: relative ;
+}
+
+.feature img{
+	width: 25px;
+}
+
+.tip-item{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	background: rgb(0, 217, 255); 
+	margin: 20px 0;
+	transition:0.4s;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.tip-item::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	background: rgba(0, 217, 255, 0.698); 
+	animation: pulse 1.5s ease-in-out infinite;
+}
+
+.tip-content{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	width: 200px;
+	background: #090d11;
+	padding: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.tip-content p span{
+	font-weight: bold;
+}
+
+.tip-item:hover .tip-content{
+	visibility: visible;
+	opacity: 1;
+}
+
+.tip-item-1 {
+	position: absolute;
+	top: 3.2rem;
+	left: 9.75rem;
+}
+
+.tip-item-1 .tip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tip-item-2 {
+	position: absolute;
+	top: 7.5rem;
+	left: 9.75rem;
+}
+
+.tip-item-2 .tip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tip-item-3 {
+	position: absolute;
+	top: 11.6rem;
+	left: 9.75rem;
+}
+
+.tip-item-3 .tip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.tip-item-4 {
+	position: absolute;
+	top: 18rem;
+	left: 9.75rem;
+}
+
+.tip-item-4 .tip-content {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+}
+
+.features-data{
+	padding-right: 3rem;
+}
+
+.feature-title{
+	font-size: 1.4rem;
+	background: -webkit-linear-gradient(rgb(255, 4, 242), rgb(0, 255, 242));
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 1rem;
+
+}
+
+.feature-details{
+	font-size: .86rem;
+	color: rgb(207, 207, 207);
+	margin-top: .4rem ;
+}
+
+.feature{
+	margin-top: 1.3rem;
+}
+
+
+@keyframes pulse {
+	0%{
+		transform: scale(0.5s);
+		opacity: 1;
+	}
+
+	100%{
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
 
 
 /* FOOTER  */
