@@ -17,6 +17,7 @@
 }
 
 body {
+	user-select:none;
 	overflow-x: hidden;
 	margin: 4rem 0 0 0;
 	font-size: 15px;
@@ -1190,6 +1191,7 @@ footer{
 
 /* For larger devices */
 @media screen and (min-width: 1024px) {
+	
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -1214,6 +1216,10 @@ footer{
 	.home-description {
 		font-size: 1.5rem;
 		line-height: 3rem;
+	}
+
+	.design-subtitle{
+		display: none;
 	}
 
 	.design-description {
@@ -1336,7 +1342,7 @@ footer{
 	}
 
 	.case-img-1{
-		width: 50%;
+		width: 40%;
 	}
 
 	.footer-left-col {

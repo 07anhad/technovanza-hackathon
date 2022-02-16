@@ -1,5 +1,3 @@
-
-
 const navToggle = document.getElementById("nav-toggle");
 navClose = document.getElementById("nav-close");
 navMenu = document.getElementById("nav-menu");
@@ -12,7 +10,6 @@ navClose.addEventListener("click", () => {
 	navMenu.classList.remove("show-menu");
 });
 
-/* CHANGE BACKGROUND HEADER =======================*/
 function scrollHeader() {
 	const header = document.querySelector("header");
 
